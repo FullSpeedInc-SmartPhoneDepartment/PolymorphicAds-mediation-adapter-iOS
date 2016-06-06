@@ -1,0 +1,1 @@
+# PolymorphicAds-mediation-adapter-iOS
