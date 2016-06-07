@@ -131,7 +131,6 @@
 @interface FSAdForcedMovieAdLoader : NSObject
 
 /// delegate
-/// do NOT forget to detach when target instance deallocate!
 @property (nonatomic, weak) id <FSAdForcedMovieAdLoaderDelegate> delegate;
 
 
