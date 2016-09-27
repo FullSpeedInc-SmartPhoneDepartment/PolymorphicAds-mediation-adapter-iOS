@@ -23,9 +23,4 @@
  */
 + (void)testModeEnable:(BOOL)enable;
 
-/**
- set app main key window.
- */
-+ (void)setMainKeyWindow:(UIWindow*)window;
-
 @end
