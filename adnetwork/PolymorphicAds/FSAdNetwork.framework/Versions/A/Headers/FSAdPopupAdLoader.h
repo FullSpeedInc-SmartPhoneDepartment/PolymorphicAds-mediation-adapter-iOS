@@ -5,7 +5,7 @@
 //  Popup unit class of PolymorphicAds
 //  You need to call [initAd] to initialize unit.
 //
-//  Delegates called the following order:
+//  Deleges called the following order:
 //
 //    initialization
 //      - finishInitAdFSAdPopup

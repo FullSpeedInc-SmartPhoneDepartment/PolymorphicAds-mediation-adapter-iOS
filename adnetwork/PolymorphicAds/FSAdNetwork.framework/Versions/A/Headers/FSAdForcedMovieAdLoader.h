@@ -5,7 +5,7 @@
 //  Forced Movie unit class of PolymorphicAds
 //  You need to call [initAd] to initialize unit.
 //
-//  Delegates called the following order:
+//  Deleges called the following order:
 //
 //    initialization
 //      - finishInitAdFSAdForcedMovie
@@ -120,17 +120,13 @@
  */
 - (void)hideAdViewFSAdForcedMovie:(FSAdForcedMovieAdLoader *)adView adUnitId:(NSString *)adUnitId;
 
-/**
- failed to show movie
- */
-- (void)failedShowMovieFSAdForcedMovie:(FSAdForcedMovieAdLoader *)sender adUnitId:(NSString *)adUnitId error:(FSError *)error;
-
 @end
 
 
 @interface FSAdForcedMovieAdLoader : NSObject
 
 /// delegate
+/// do NOT forget to detach when target instance deallocate!
 @property (nonatomic, weak) id <FSAdForcedMovieAdLoaderDelegate> delegate;
 
 
